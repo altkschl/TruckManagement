@@ -16,9 +16,10 @@
             "control": "property.innerHTML",
             "selector": ".ms-Link.root_1d5fd61f.od-FieldRender.od-FieldRender-lookup.isEnabled_1d5fd61f"
           },
-          "mydate": {
+          "shipmentnumber": {
             "type": "string",
-            "control": "action.button"
+            "control": "property.innerHTML",
+            "selector": ".od-FieldRenderer-date"
           }
         }
       },
