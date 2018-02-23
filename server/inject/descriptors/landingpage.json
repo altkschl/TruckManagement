@@ -47,8 +47,7 @@
     },
     "newtruck": {
       "type": "action",
-      "control": "action.link",
-      "selector": ".CommandBarItem-link"
+      "control": "action.link"
     }
   },
   "connect": []
