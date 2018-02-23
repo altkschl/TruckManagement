@@ -39,7 +39,12 @@
           "responsible": {
             "type": "string",
             "control": "property.innerText",
-            "selector": ".od-FieldRender.od-FieldRender-nofill.od-FieldRender-person"
+            "selector": ".StandaloneList-listView"
+          },
+          "selectrow": {
+            "type": "string",
+            "selector": ".StandaloneList-listView",
+            "control": "property.innerHTML"
           }
         }
       },
