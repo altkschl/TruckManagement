@@ -48,7 +48,10 @@
     "newtruck": {
       "type": "action",
       "control": "action.link",
-      "selector": ".CommandBarItem-linkWrapper"
+      "selector": ".CommandBarItem-link",
+      "frameSelector": [
+        null
+      ]
     }
   },
   "connect": []
