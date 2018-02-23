@@ -10,7 +10,13 @@
       "type": "array",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "company": {
+            "type": "string",
+            "control": "property.innerHTML",
+            "selector": ".ms-Link.root_1d5fd61f.od-FieldRender.od-FieldRender-lookup.isEnabled_1d5fd61f"
+          }
+        }
       },
       "selectorAll": ".ms-DetailsRow-fields.fields_404669d8"
     }
