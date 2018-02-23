@@ -3,7 +3,7 @@
   "properties": {
     "islanding": {
       "type": "identifier",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Truck & Trailer checklist"
     }
   },
