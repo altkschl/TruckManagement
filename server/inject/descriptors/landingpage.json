@@ -20,6 +20,11 @@
             "type": "string",
             "control": "property.innerHTML",
             "selector": ".od-FieldRenderer-date"
+          },
+          "shipmentnumber": {
+            "type": "string",
+            "control": "property.innerHTML",
+            "selector": "span"
           }
         }
       },
