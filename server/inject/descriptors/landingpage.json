@@ -25,6 +25,11 @@
             "type": "string",
             "control": "property.innerHTML",
             "selector": "span"
+          },
+          "TruckTrailNumbers": {
+            "type": "string",
+            "control": "property.innerText",
+            "selector": "span"
           }
         }
       },
