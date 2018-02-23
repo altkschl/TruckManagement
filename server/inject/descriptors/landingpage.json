@@ -30,6 +30,11 @@
             "type": "string",
             "control": "property.innerText",
             "selector": "span"
+          },
+          "customer": {
+            "type": "string",
+            "control": "property.innerText",
+            "selector": ".ms-Link.root_1d5fd61f.od-FieldRender.od-FieldRender-lookup.isEnabled_1d5fd61f"
           }
         }
       },
