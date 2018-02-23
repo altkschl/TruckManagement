@@ -6,6 +6,14 @@
       "selector": ".StandaloneList-title",
       "control": "exists",
       "selectContains": "Truck & Trailer checklist"
+    },
+    "trucklist": {
+      "type": "array",
+      "selectorAll": ".StandaloneList-title",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
