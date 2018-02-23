@@ -43,7 +43,7 @@
           },
           "selectrow": {
             "type": "action",
-            "control": "checkbox",
+            "control": "action.link",
             "selector": ".ms-DetailsRow-check.check_5d9e6fe9.checkHost_572015e9"
           }
         }
