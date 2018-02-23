@@ -35,6 +35,11 @@
             "type": "string",
             "control": "property.innerText",
             "selector": ".ms-Link.root_1d5fd61f.od-FieldRender.od-FieldRender-lookup.isEnabled_1d5fd61f"
+          },
+          "responsible": {
+            "type": "string",
+            "control": "property.innerText",
+            "selector": ".od-FieldRender.od-FieldRender-nofill.od-FieldRender-person"
           }
         }
       },
