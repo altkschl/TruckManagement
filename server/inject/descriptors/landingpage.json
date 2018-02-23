@@ -9,11 +9,11 @@
     },
     "trucklist": {
       "type": "array",
-      "selectorAll": ".StandaloneList-title",
       "items": {
         "type": "object",
         "properties": {}
-      }
+      },
+      "selectorAll": ".ms-FocusZone.focusZone_8d0d2dce"
     }
   },
   "connect": []
