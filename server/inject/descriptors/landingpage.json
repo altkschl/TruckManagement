@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isLanding": {
+      "type": "identifier",
+      "selector": ".StandaloneList-title",
+      "control": "exists",
+      "selectContains": "Truck & Trailer checklist"
+    }
+  },
+  "connect": []
+}
