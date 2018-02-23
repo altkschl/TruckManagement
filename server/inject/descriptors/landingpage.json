@@ -13,7 +13,7 @@
         "type": "object",
         "properties": {}
       },
-      "selectorAll": ".ms-FocusZone.focusZone_8d0d2dce"
+      "selectorAll": ".ms-List-cell"
     }
   },
   "connect": []
