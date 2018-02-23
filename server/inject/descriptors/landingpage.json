@@ -3,9 +3,9 @@
   "properties": {
     "isLanding": {
       "type": "identifier",
-      "selector": ".StandaloneList-title",
       "control": "exists",
-      "selectContains": "Truck & Trailer checklist"
+      "selectContains": "Truck & Trailer checklist",
+      "selector": ".StandaloneList-title"
     },
     "trucklist": {
       "type": "array",
