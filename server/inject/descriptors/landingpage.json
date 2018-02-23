@@ -48,8 +48,7 @@
     "newtruck": {
       "type": "action",
       "control": "action.link",
-      "selector": ".CommandBarItem-icon",
-      "selectContains": "New"
+      "selector": ".CommandBarItem-icon"
     }
   },
   "connect": []
