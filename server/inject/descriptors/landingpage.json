@@ -40,15 +40,15 @@
             "type": "string",
             "control": "property.innerText",
             "selector": ".od-FieldRender.od-FieldRender-nofill.od-FieldRender-person"
-          },
-          "selectrow": {
-            "type": "action",
-            "control": "action.link",
-            "selector": ".ms-DetailsRow-check.check_5d9e6fe9.checkHost_572015e9"
           }
         }
       },
       "selectorAll": ".ms-DetailsRow-fields.fields_404669d8"
+    },
+    "newtruck": {
+      "type": "action",
+      "control": "action.link",
+      "selector": ".CommandBarItem-link"
     }
   },
   "connect": []
