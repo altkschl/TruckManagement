@@ -42,9 +42,9 @@
             "selector": ".od-FieldRender.od-FieldRender-nofill.od-FieldRender-person"
           },
           "selectrow": {
-            "type": "string",
-            "selector": ".StandaloneList-listView",
-            "control": "property.innerHTML"
+            "type": "action",
+            "control": "checkbox",
+            "selector": ".ms-DetailsRow-check.check_5d9e6fe9.checkHost_572015e9"
           }
         }
       },
