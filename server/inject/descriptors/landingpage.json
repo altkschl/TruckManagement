@@ -48,7 +48,7 @@
     "newtruck": {
       "type": "action",
       "control": "action.link",
-      "selector": ".CommandBarItem-commandText"
+      "selector": ".CommandBarItem.beak-anchor.command.is-focused"
     }
   },
   "connect": []
