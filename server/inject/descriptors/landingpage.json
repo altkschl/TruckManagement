@@ -5,6 +5,14 @@
       "type": "identifier",
       "control": "exists",
       "selectContains": "Truck & Trailer checklist"
+    },
+    "trucklist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {}
+      },
+      "selectorAll": ".ms-DetailsRow-fields.fields_404669d8"
     }
   },
   "connect": []
