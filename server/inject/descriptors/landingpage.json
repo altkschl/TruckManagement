@@ -15,6 +15,12 @@
             "type": "string",
             "control": "property.innerHTML",
             "selector": ".ms-Link.root_1d5fd61f.od-FieldRender.od-FieldRender-lookup.isEnabled_1d5fd61f"
+          },
+          "mydate": {
+            "type": "date",
+            "selector": ".od-FieldRenderer-date",
+            "control": "action.button",
+            "format": "MM/DD/YYYY"
           }
         }
       },
