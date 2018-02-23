@@ -39,7 +39,7 @@
           "responsible": {
             "type": "string",
             "control": "property.innerText",
-            "selector": ".StandaloneList-listView"
+            "selector": ".od-FieldRender.od-FieldRender-nofill.od-FieldRender-person"
           },
           "selectrow": {
             "type": "string",
