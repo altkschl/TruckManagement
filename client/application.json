@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "078ff37a",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "altkschl"
+  "creatorId": "altkschl",
+  "id": "truckmanagement",
+  "previewImageURL": "/previews/078ff37a-truckmanagement/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/altkschl/TruckManagement",
+  "creatorName": "Kevin Schlosser",
+  "sdks": []
 }

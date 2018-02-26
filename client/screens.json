@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "truckmanagement",
-  "startScreen": "app.blank",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "blank",
