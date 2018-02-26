@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "truckmanagement",
-  "startScreen": "app.login",
+  "startScreen": null,
   "screens": [
     {
       "id": "blank",
@@ -20,12 +20,6 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
-    },
-    {
-      "id": "login",
-      "name": "login",
-      "sourceScreenId": "app.login.loginconfident",
-      "sourceAppId": "universaltemplates"
     }
   ],
   "sourceAppId": "_blank",
