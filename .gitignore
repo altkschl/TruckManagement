@@ -1,4 +1,3 @@
-**/.DS_Store
-client/build/**
-client/styles/main.css
-..gitignore.swp
+*.log
+npm-debug.log*
+node_modules
