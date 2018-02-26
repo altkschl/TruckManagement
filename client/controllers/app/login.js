@@ -1,5 +1,5 @@
 angular.module('app').controller('app_login', app_login);
-function app_login($scope, app, $q, powwowLoginNew) {
+function app_login($scope, app, $q, login) {
     'use strict';
     app.init($scope); 
     $scope.login = function () {
@@ -10,12 +10,12 @@ function app_login($scope, app, $q, powwowLoginNew) {
     app.origEstablishConnection = app.establishConnection;
     app.establishConnection = function (params) {
         if (app.alreadyConnected) {
-            console.log("Calling powwowLoginNew getcachedcredentials");
-            var credentials = powwowLoginNew.getCachedCredentials();
+            console.log("Calling login getcachedcredentials");
+            var credentials = login.getcachedcredentials();
             if (!credentials.username) {
                 console.log("No cached credentials");
                 // if no user credentials we cannot perform App login - forvard user to loginScreen
-                powwowLoginNew.clearCachedCredentials();
+                login.clearCachedCredentials();
                 window.location.reload();
                 return;
             }
