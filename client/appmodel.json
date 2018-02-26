@@ -1,5 +1,5 @@
 {
-  "mylogin": {
+  "login": {
     "type": "object",
     "comment": "Login",
     "properties": {
