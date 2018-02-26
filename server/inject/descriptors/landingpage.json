@@ -44,14 +44,6 @@
         }
       },
       "selectorAll": ".ms-DetailsRow-fields.fields_404669d8"
-    },
-    "newtruck": {
-      "type": "action",
-      "control": "action.link",
-      "selector": ".CommandBarItem-link",
-      "frameSelector": [
-        null
-      ]
     }
   },
   "connect": []
