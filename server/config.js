@@ -2,6 +2,7 @@
 module.exports = {
     // Start URL that browsing should start at.
     startURL: 'about:blank',
+    loginURL: 'https://flextronics365.sharepoint.com/sites/intranet_althofen/vsm/Lists/Truck%20%20Trailer%20checklist/AllItems.aspx',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
