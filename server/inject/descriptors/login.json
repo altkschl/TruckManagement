@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "password": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "errorMessage": {
+      "type": "string",
+      "selector": "body",
+      "control": "property.innerText"
+    },
+    "islogin": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "exists"
+    },
+    "login": {
+      "type": "action",
+      "selector": "body",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
