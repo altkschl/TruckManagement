@@ -19,5 +19,14 @@
       "type": "action"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "islogin"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
