@@ -2,19 +2,13 @@
   "type": "object",
   "properties": {
     "username": {
-      "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "type": "string"
     },
     "password": {
-      "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "type": "string"
     },
     "errorMessage": {
-      "type": "string",
-      "selector": "body",
-      "control": "property.innerText"
+      "type": "string"
     },
     "islogin": {
       "type": "identifier",
@@ -22,9 +16,7 @@
       "control": "exists"
     },
     "login": {
-      "type": "action",
-      "selector": "body",
-      "control": "property.innerText"
+      "type": "action"
     }
   },
   "connect": []
