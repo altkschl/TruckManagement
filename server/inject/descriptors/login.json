@@ -15,7 +15,7 @@
       "selector": "body",
       "control": "exists"
     },
-    "login": {
+    "submit": {
       "type": "action"
     }
   },
