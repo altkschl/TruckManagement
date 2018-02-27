@@ -27,6 +27,12 @@
       "sourceScreenId": "app.login.logincaptivating",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "login",
+      "name": "login",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
