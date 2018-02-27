@@ -44,6 +44,18 @@
         }
       },
       "selectorAll": ".ms-DetailsRow-fields.fields_404669d8"
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    },
+    "submit": {
+      "type": "action"
     }
   },
   "connect": []
